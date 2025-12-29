@@ -1,0 +1,282 @@
+{
+  "labycontroller.name": "LabyController",
+  "labycontroller.description": "Vollständige Controller-Unterstützung für Minecraft",
+
+  "labycontroller.settings.name": "Controller Einstellungen",
+  "labycontroller.settings.enabled.name": "Controller-Unterstützung aktivieren",
+  "labycontroller.settings.enabled.description": "Controller-Eingabe ein- oder ausschalten",
+
+  "labycontroller.settings.controllerStatus.name": "Controller-Status",
+  "labycontroller.settings.controllerStatus.description": "Angeschlossenen Controller und Batteriestatus anzeigen",
+
+  "labycontroller.settings.header.status.name": "Controller-Status",
+  "labycontroller.settings.header.general.name": "Allgemein",
+  "labycontroller.settings.header.movement.name": "Bewegung",
+  "labycontroller.settings.header.controls.name": "Steuerung",
+  "labycontroller.settings.header.sensitivity.name": "Blick-Empfindlichkeit",
+  "labycontroller.settings.header.deadzone.name": "Totzone",
+  "labycontroller.settings.header.vibration.name": "Vibration",
+  "labycontroller.settings.header.lightbar.name": "Lichtleiste",
+  "labycontroller.settings.header.gui.name": "Menü-Navigation",
+  "labycontroller.settings.header.advanced.name": "Erweitert",
+
+  "labycontroller.settings.autoDetectController.name": "Controller automatisch erkennen",
+  "labycontroller.settings.autoDetectController.description": "Angeschlossene Controller automatisch erkennen und verwenden",
+
+  "labycontroller.settings.showControllerHints.name": "Tastenbelegung anzeigen",
+  "labycontroller.settings.showControllerHints.description": "Controller-Tasten-Hinweise im Spiel anzeigen",
+
+  "labycontroller.settings.moveSensitivity.name": "Bewegungsempfindlichkeit",
+  "labycontroller.settings.moveSensitivity.description": "Bewegungsgeschwindigkeit mit dem linken Stick",
+
+  "labycontroller.settings.toggleSprint.name": "Sprint umschalten",
+  "labycontroller.settings.toggleSprint.description": "Einmal drücken zum Sprinten, erneut drücken zum Stoppen",
+
+  "labycontroller.settings.toggleSneak.name": "Schleichen umschalten",
+  "labycontroller.settings.toggleSneak.description": "Einmal drücken zum Schleichen, erneut drücken zum Stoppen",
+
+  "labycontroller.settings.aimSensitivityReduction.name": "Ziel-Empfindlichkeitsreduzierung",
+  "labycontroller.settings.aimSensitivityReduction.description": "Kameraempfindlichkeit beim Zielen reduzieren",
+
+  "labycontroller.settings.aimSensitivityMultiplier.name": "Ziel-Empfindlichkeit",
+  "labycontroller.settings.aimSensitivityMultiplier.description": "Kamera-Empfindlichkeitsmultiplikator beim Zielen",
+
+  "labycontroller.settings.lookSensitivity.name": "Blick-Empfindlichkeit",
+  "labycontroller.settings.lookSensitivity.description": "Kamera-Empfindlichkeit mit dem rechten Stick",
+
+  "labycontroller.settings.lookAcceleration.name": "Blick-Beschleunigung",
+  "labycontroller.settings.lookAcceleration.description": "Wie schnell die Kamerageschwindigkeit zunimmt",
+
+  "labycontroller.settings.invertYAxis.name": "Y-Achse invertieren",
+  "labycontroller.settings.invertYAxis.description": "Vertikale Kamerabewegung invertieren",
+
+  "labycontroller.settings.invertXAxis.name": "X-Achse invertieren",
+  "labycontroller.settings.invertXAxis.description": "Horizontale Kamerabewegung invertieren",
+
+  "labycontroller.settings.leftStickDeadzone.name": "Linker Stick Totzone",
+  "labycontroller.settings.leftStickDeadzone.description": "Minimaler linker Stick-Input für Bewegung",
+
+  "labycontroller.settings.rightStickDeadzone.name": "Rechter Stick Totzone",
+  "labycontroller.settings.rightStickDeadzone.description": "Minimaler rechter Stick-Input für Kamerabewegung",
+
+  "labycontroller.settings.triggerDeadzone.name": "Trigger Totzone",
+  "labycontroller.settings.triggerDeadzone.description": "Minimaler Trigger-Input zum Auslösen",
+
+  "labycontroller.settings.vibrationEnabled.name": "Vibration aktivieren",
+  "labycontroller.settings.vibrationEnabled.description": "Controller-Vibration aktivieren",
+
+  "labycontroller.settings.vibrationStrength.name": "Vibrationsstärke",
+  "labycontroller.settings.vibrationStrength.description": "Gesamte Vibrationsintensität",
+
+  "labycontroller.settings.damageVibration.name": "Schadenvibration",
+  "labycontroller.settings.damageVibration.description": "Vibrieren bei Schaden",
+
+  "labycontroller.settings.blockBreakVibration.name": "Block-Abbauvibration",
+  "labycontroller.settings.blockBreakVibration.description": "Vibrieren beim Abbauen von Blöcken",
+
+  "labycontroller.settings.explosionVibration.name": "Explosionsvibration",
+  "labycontroller.settings.explosionVibration.description": "Vibrieren bei Explosionen",
+
+  "labycontroller.settings.attackVibration.name": "Angriffsvibration",
+  "labycontroller.settings.attackVibration.description": "Vibrieren beim Angreifen",
+
+  "labycontroller.settings.useVibration.name": "Benutzen/Platzieren Vibration",
+  "labycontroller.settings.useVibration.description": "Vibrieren beim Benutzen oder Platzieren",
+
+  "labycontroller.settings.fishingVibration.name": "Angel-Vibration",
+  "labycontroller.settings.fishingVibration.description": "Vibrieren wenn ein Fisch anbeißt",
+
+  "labycontroller.settings.bowVibration.name": "Bogen-Spannvibration",
+  "labycontroller.settings.bowVibration.description": "Progressive Vibration beim Bogenspannen",
+
+  "labycontroller.settings.lightBarEnabled.name": "Lichtleiste aktivieren",
+  "labycontroller.settings.lightBarEnabled.description": "Lichtleistenfarbe steuern (PlayStation/Switch)",
+
+  "labycontroller.settings.lightBarMode.name": "Lichtleisten-Modus",
+  "labycontroller.settings.lightBarMode.description": "Wie die Lichtleistenfarbe bestimmt wird",
+  "labycontroller.settings.lightBarMode.entry.STATIC": "Statische Farbe",
+  "labycontroller.settings.lightBarMode.entry.HEALTH": "Spieler-Gesundheit",
+  "labycontroller.settings.lightBarMode.entry.BIOME": "Aktuelles Biom",
+
+  "labycontroller.settings.lightBarRed.name": "Rot",
+  "labycontroller.settings.lightBarRed.description": "Rotanteil der Lichtleistenfarbe (0-255)",
+
+  "labycontroller.settings.lightBarGreen.name": "Grün",
+  "labycontroller.settings.lightBarGreen.description": "Grünanteil der Lichtleistenfarbe (0-255)",
+
+  "labycontroller.settings.lightBarBlue.name": "Blau",
+  "labycontroller.settings.lightBarBlue.description": "Blauanteil der Lichtleistenfarbe (0-255)",
+
+  "labycontroller.settings.guiNavigation.name": "Menü-Navigation aktivieren",
+  "labycontroller.settings.guiNavigation.description": "Controller für Menüs und Inventar verwenden",
+
+  "labycontroller.settings.virtualMouseSpeed.name": "Cursor-Geschwindigkeit",
+  "labycontroller.settings.virtualMouseSpeed.description": "Geschwindigkeit des virtuellen Mauszeigers in Menüs",
+
+  "labycontroller.settings.guiRepeatDelay.name": "Wiederholungsverzögerung",
+  "labycontroller.settings.guiRepeatDelay.description": "Verzögerung in Millisekunden bei gehaltener Richtung",
+
+  "labycontroller.settings.showOnScreenKeyboard.name": "Bildschirmtastatur",
+  "labycontroller.settings.showOnScreenKeyboard.description": "Bildschirmtastatur beim Öffnen des Chats anzeigen",
+
+  "labycontroller.settings.mixedInputMode.name": "Gemischter Eingabemodus",
+  "labycontroller.settings.mixedInputMode.description": "Nahtlos zwischen Controller und Tastatur/Maus wechseln",
+
+  "labycontroller.settings.reducedMotion.name": "Reduzierte Bewegung",
+  "labycontroller.settings.reducedMotion.description": "Visuelle Bewegungseffekte reduzieren",
+
+  "labycontroller.settings.bindings.name": "Tastenbelegung",
+  "labycontroller.settings.bindings.description": "Controller-Tastenbelegung konfigurieren",
+
+  "labycontroller.settings.bindings.jump.name": "Springen",
+  "labycontroller.settings.bindings.jump.description": "Taste zum Springen",
+
+  "labycontroller.settings.bindings.sneak.name": "Schleichen",
+  "labycontroller.settings.bindings.sneak.description": "Taste zum Schleichen",
+
+  "labycontroller.settings.bindings.sprint.name": "Sprinten",
+  "labycontroller.settings.bindings.sprint.description": "Taste zum Sprinten",
+
+  "labycontroller.settings.bindings.inventory.name": "Inventar",
+  "labycontroller.settings.bindings.inventory.description": "Taste zum Öffnen des Inventars",
+
+  "labycontroller.settings.bindings.swapHands.name": "Hände tauschen",
+  "labycontroller.settings.bindings.swapHands.description": "Taste zum Tauschen der Gegenstände zwischen den Händen",
+
+  "labycontroller.settings.bindings.dropItem.name": "Gegenstand fallen lassen",
+  "labycontroller.settings.bindings.dropItem.description": "Taste zum Fallen lassen des gehaltenen Gegenstands",
+
+  "labycontroller.settings.bindings.pickBlock.name": "Block aufnehmen",
+  "labycontroller.settings.bindings.pickBlock.description": "Taste zum Aufnehmen eines Blocks (Kreativmodus)",
+
+  "labycontroller.settings.bindings.chat.name": "Chat öffnen",
+  "labycontroller.settings.bindings.chat.description": "Taste zum Öffnen des Chats",
+
+  "labycontroller.settings.bindings.pause.name": "Pause/Menü",
+  "labycontroller.settings.bindings.pause.description": "Taste zum Pausieren oder Öffnen des Menüs",
+
+  "labycontroller.settings.bindings.perspective.name": "Perspektive wechseln",
+  "labycontroller.settings.bindings.perspective.description": "Taste zum Wechseln der Kameraperspektive",
+
+  "labycontroller.settings.bindings.guiSelect.name": "Menü Auswählen",
+  "labycontroller.settings.bindings.guiSelect.description": "Taste zum Auswählen/Bestätigen in Menüs",
+
+  "labycontroller.settings.bindings.guiBack.name": "Menü Zurück",
+  "labycontroller.settings.bindings.guiBack.description": "Taste zum Zurückgehen/Abbrechen in Menüs",
+
+  "labycontroller.settings.bindings.radialMenu.name": "Radialmenü",
+  "labycontroller.settings.bindings.radialMenu.description": "Taste zum Öffnen des Schnellzugriff-Radialmenüs",
+
+  "labycontroller.settings.bindings.resetBindings.name": "Tastenbelegung zurücksetzen",
+  "labycontroller.settings.bindings.resetBindings.description": "Alle Tastenbelegungen auf Standard zurücksetzen",
+
+  "labycontroller.settings.vibrationEvents.name": "Vibrationsereignisse",
+  "labycontroller.settings.vibrationEvents.description": "Konfiguriere welche Ereignisse Vibration auslösen",
+
+  "labycontroller.settings.vibrationEvents.damage.name": "Schaden",
+  "labycontroller.settings.vibrationEvents.damage.description": "Vibrieren bei Schaden",
+
+  "labycontroller.settings.vibrationEvents.blockBreak.name": "Block abbauen",
+  "labycontroller.settings.vibrationEvents.blockBreak.description": "Vibrieren beim Abbauen von Blöcken",
+
+  "labycontroller.settings.vibrationEvents.explosion.name": "Explosion",
+  "labycontroller.settings.vibrationEvents.explosion.description": "Vibrieren bei Explosionen",
+
+  "labycontroller.settings.vibrationEvents.attack.name": "Angriff",
+  "labycontroller.settings.vibrationEvents.attack.description": "Vibrieren beim Angreifen",
+
+  "labycontroller.settings.vibrationEvents.use.name": "Benutzen/Platzieren",
+  "labycontroller.settings.vibrationEvents.use.description": "Vibrieren beim Benutzen oder Platzieren",
+
+  "labycontroller.settings.vibrationEvents.fishing.name": "Angeln",
+  "labycontroller.settings.vibrationEvents.fishing.description": "Vibrieren wenn ein Fisch anbeißt",
+
+  "labycontroller.settings.vibrationEvents.bow.name": "Bogen spannen",
+  "labycontroller.settings.vibrationEvents.bow.description": "Progressive Vibration beim Bogenspannen",
+
+  "labycontroller.controller.button.A": "A / Kreuz",
+  "labycontroller.controller.button.B": "B / Kreis",
+  "labycontroller.controller.button.X": "X / Quadrat",
+  "labycontroller.controller.button.Y": "Y / Dreieck",
+  "labycontroller.controller.button.LEFT_BUMPER": "LB / L1",
+  "labycontroller.controller.button.RIGHT_BUMPER": "RB / R1",
+  "labycontroller.controller.button.BACK": "Zurück / Select",
+  "labycontroller.controller.button.START": "Start / Optionen",
+  "labycontroller.controller.button.GUIDE": "Guide / PS",
+  "labycontroller.controller.button.LEFT_STICK": "Linker Stick (L3)",
+  "labycontroller.controller.button.RIGHT_STICK": "Rechter Stick (R3)",
+  "labycontroller.controller.button.DPAD_UP": "Steuerkreuz Oben",
+  "labycontroller.controller.button.DPAD_DOWN": "Steuerkreuz Unten",
+  "labycontroller.controller.button.DPAD_LEFT": "Steuerkreuz Links",
+  "labycontroller.controller.button.DPAD_RIGHT": "Steuerkreuz Rechts",
+
+  "labycontroller.GamepadButton.entry.A": "A / Kreuz",
+  "labycontroller.GamepadButton.entry.B": "B / Kreis",
+  "labycontroller.GamepadButton.entry.X": "X / Quadrat",
+  "labycontroller.GamepadButton.entry.Y": "Y / Dreieck",
+  "labycontroller.GamepadButton.entry.LEFT_BUMPER": "LB / L1",
+  "labycontroller.GamepadButton.entry.RIGHT_BUMPER": "RB / R1",
+  "labycontroller.GamepadButton.entry.BACK": "Zurück / Select",
+  "labycontroller.GamepadButton.entry.START": "Start / Optionen",
+  "labycontroller.GamepadButton.entry.GUIDE": "Guide / PS",
+  "labycontroller.GamepadButton.entry.LEFT_STICK": "Linker Stick (L3)",
+  "labycontroller.GamepadButton.entry.RIGHT_STICK": "Rechter Stick (R3)",
+  "labycontroller.GamepadButton.entry.DPAD_UP": "Steuerkreuz Oben",
+  "labycontroller.GamepadButton.entry.DPAD_DOWN": "Steuerkreuz Unten",
+  "labycontroller.GamepadButton.entry.DPAD_LEFT": "Steuerkreuz Links",
+  "labycontroller.GamepadButton.entry.DPAD_RIGHT": "Steuerkreuz Rechts",
+
+  "labycontroller.controller.connected": "Controller verbunden: %s",
+  "labycontroller.controller.disconnected": "Controller getrennt",
+  "labycontroller.controller.none": "Kein Controller verbunden",
+  "labycontroller.controller.type.unknown": "Unbekannt",
+  "labycontroller.controller.type.xbox": "Xbox Controller",
+  "labycontroller.controller.type.playstation": "PlayStation Controller",
+  "labycontroller.controller.type.switch": "Nintendo Switch Controller",
+  "labycontroller.controller.type.steamdeck": "Steam Deck",
+  "labycontroller.controller.type.generic": "Generischer Gamepad",
+
+  "labycontroller.settings.radialMenu.name": "Radialmenü",
+  "labycontroller.settings.radialMenu.description": "Konfiguriere die Schnellzugriff-Slots des Radialmenüs",
+
+  "labycontroller.settings.radialMenu.slot1.name": "Slot 1 (Oben)",
+  "labycontroller.settings.radialMenu.slot1.description": "Aktion für den oberen Slot",
+
+  "labycontroller.settings.radialMenu.slot2.name": "Slot 2 (Oben Rechts)",
+  "labycontroller.settings.radialMenu.slot2.description": "Aktion für den oberen rechten Slot",
+
+  "labycontroller.settings.radialMenu.slot3.name": "Slot 3 (Rechts)",
+  "labycontroller.settings.radialMenu.slot3.description": "Aktion für den rechten Slot",
+
+  "labycontroller.settings.radialMenu.slot4.name": "Slot 4 (Unten Rechts)",
+  "labycontroller.settings.radialMenu.slot4.description": "Aktion für den unteren rechten Slot",
+
+  "labycontroller.settings.radialMenu.slot5.name": "Slot 5 (Unten)",
+  "labycontroller.settings.radialMenu.slot5.description": "Aktion für den unteren Slot",
+
+  "labycontroller.settings.radialMenu.slot6.name": "Slot 6 (Unten Links)",
+  "labycontroller.settings.radialMenu.slot6.description": "Aktion für den unteren linken Slot",
+
+  "labycontroller.settings.radialMenu.slot7.name": "Slot 7 (Links)",
+  "labycontroller.settings.radialMenu.slot7.description": "Aktion für den linken Slot",
+
+  "labycontroller.settings.radialMenu.slot8.name": "Slot 8 (Oben Links)",
+  "labycontroller.settings.radialMenu.slot8.description": "Aktion für den oberen linken Slot",
+
+  "labycontroller.RadialAction.entry.NONE": "Keine",
+  "labycontroller.RadialAction.entry.HOTBAR_1": "Schnellleiste 1",
+  "labycontroller.RadialAction.entry.HOTBAR_2": "Schnellleiste 2",
+  "labycontroller.RadialAction.entry.HOTBAR_3": "Schnellleiste 3",
+  "labycontroller.RadialAction.entry.HOTBAR_4": "Schnellleiste 4",
+  "labycontroller.RadialAction.entry.HOTBAR_5": "Schnellleiste 5",
+  "labycontroller.RadialAction.entry.HOTBAR_6": "Schnellleiste 6",
+  "labycontroller.RadialAction.entry.HOTBAR_7": "Schnellleiste 7",
+  "labycontroller.RadialAction.entry.HOTBAR_8": "Schnellleiste 8",
+  "labycontroller.RadialAction.entry.HOTBAR_9": "Schnellleiste 9",
+  "labycontroller.RadialAction.entry.TOGGLE_PERSPECTIVE": "Kamera wechseln",
+  "labycontroller.RadialAction.entry.DROP_ITEM": "Gegenstand fallen lassen",
+  "labycontroller.RadialAction.entry.DROP_STACK": "Stapel fallen lassen",
+  "labycontroller.RadialAction.entry.OPEN_CHAT": "Chat öffnen",
+  "labycontroller.RadialAction.entry.OPEN_COMMAND": "Befehl öffnen",
+  "labycontroller.RadialAction.entry.TOGGLE_HUD": "HUD umschalten"
+}
